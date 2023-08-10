@@ -243,7 +243,45 @@ a {
 
   .popular-foods__card,
   .popular-foods__card.active-card {
-    min-width: 100%;
+    min-width: 50%;
+  }
+
+  .popular-foods__card {
+    padding: 30px;
+    min-width: 150px;
+  }
+
+  .popular-foods__card-image {
+    width: 85px;
+    height: 59px;
+  }
+
+  .popular-foods__card-title {
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .popular-foods__card-details {
+    margin-top: 28px;
+  } 
+
+  .popular-foods__card-rating {
+    gap: 6px;
+  }
+
+  .popular-foods__card-rating img {
+      width: 16px;
+      height: 16px;
+  }
+
+  .popular-foods__card-rating p {
+      font-size: 16px; 
+  }
+
+  .popular-foods__card-price {
+      font-size: 16px; 
+      font-weight: 500;
   }
 }
 /* END: popular media queries */
