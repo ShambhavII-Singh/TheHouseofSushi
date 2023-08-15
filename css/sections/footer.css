@@ -1,14 +1,15 @@
 .footer {
     width: 100%;
-    padding: 20px 40px;
+    padding: 20px 20px;
     background: var(--color-white);
     flex-wrap: wrap;
     gap: 20px;
     overflow: hidden;
+    flex-direction: column;
 }
 
 .footer__logo {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     font-family: var(--playfair-display);
     text-transform: uppercase;
